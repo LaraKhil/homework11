@@ -257,7 +257,7 @@ a[href]{
 }
 .form-style{
     display:block;
-    width: 100%;
+    width: 34.4rem;
     height:3.12rem;
     margin-bottom: 1rem;
     background-color: #00C4C4;
@@ -268,7 +268,7 @@ a[href]{
     border-right:none;
     border-bottom: none;
     font:bold 15px/25px "Raleway", sans-serif; 
-    color:#FFF
+    color:#FFF;
 }
 .form-style:hover,
 .forn-style:focus,
@@ -302,7 +302,11 @@ a[href]{
     font:300 20px/25px "Raleway", sans-serif;
     padding:0.2rem 0; 
 }
-
+.form-style--text-area{
+    max-width:550px;
+    max-height: 300px;
+    overflow: hidden;
+}
 .form-style::-webkit-input-placeholder{
     color:#fff;
     padding-left:1rem;  
