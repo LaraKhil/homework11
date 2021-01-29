@@ -237,12 +237,7 @@ a[href]{
     font:300 20px/25px "Raleway", sans-serif;
     padding:0.2rem 0; 
 }
-.form-submit{
-    color:#fff;
-    padding-left:1rem;  
-    font:bold 15px/25px "Raleway", sans-serif; 
-    text-align: center;  
-}
+
 .form-style::-webkit-input-placeholder{
     color:#fff;
     padding-left:1rem;  
