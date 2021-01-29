@@ -48,6 +48,8 @@ a[href]{
    font:300 20px/24px 'Raleway', sans-serif;
    padding:0.9rem 0.4rem;
    cursor:pointer;
+   margin-top: 2.5rem;
+   transition:all .2s linear;
   
 }
 .title-title{
@@ -76,6 +78,13 @@ a[href]{
    justify-content: space-between;
    align-items:center ;
   
+}
+.section{
+    width:100vw;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
 }
 /* Nav section */
 .header{
@@ -112,10 +121,9 @@ a[href]{
 .first-page__btn{
     background-color:#FF6033;
     color:#fff; 
-    transition: all .2s linear;
 }
 .first-page__btn:hover{
-    background-color:#f62f0c ;
+    background-color:#F10F2E ;
 }
 .title-title--small{
     font:800 60px/25px "Raleway", sans-serif;
@@ -131,14 +139,13 @@ a[href]{
     background: rgb(0,156,156);
     background: linear-gradient(90deg, rgb(2, 185, 185) 0%, rgba(0,173,173,1) 20%, rgba(0,183,183,1) 32%, rgba(0,196,196,1) 49%, rgba(0,183,183,1) 67%, rgba(0,173,173,1) 82%, rgb(2, 180, 180) 100%); 
     opacity: 1;
-    height:66vh;
+    max-height:66vh;
     position:relative;
-    width:100vw;
 }
 .about__wrapper{
    left:4%;
    top:5%; 
-    position:absolute;  
+   position:absolute;  
 }
 .about__img{
     width:35rem;
@@ -162,14 +169,72 @@ a[href]{
     margin-bottom: 0;
 }
 /* End of About Section */
+/* Blog Section*/
+.blog{
+  background-color: #9F60F5;
+}
+
+.title-title--blog{
+    color:#fff;
+}
+.blog__wrapper{
+    flex-direction: column;
+}
+.blog__description--text{
+    width:30rem;
+    padding:1.5rem 0;
+    color:#fff;
+    text-align: center;
+}
+.blog__cards{
+    justify-content: center;
+}
+.blog__card{
+    position: relative;
+    height: 300px;
+    color:#FFF;
+    margin:0 0.5rem;
+    box-shadow: 3px 3px 6px rgba(37, 37, 37, 0.623) ;
+    
+}
+.card__date{
+    position:absolute;
+    top:15px;
+    left:15px;
+    font:600 20px/25px "Raleway", sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(37, 37, 37, 0.623);
+    border-radius: 10px;
+    text-align: center;
+    padding:0.2rem;
+}
+.card__text{
+    position: absolute;
+    bottom:20%;
+    left:15px;
+    font:600 24px/25px "Raleway", sans-serif;
+    max-width: 20.5rem;
+    
+}
+.card__author{
+    position: absolute;
+    bottom:15px;
+    left:15px;
+}
+
+
+.blog__btn{
+    background-color: #F10F2E;
+      box-shadow: 2px 2px 4px rgb(80, 80, 80), -1px 0 2px rgb(80, 80, 80) 
+    
+}
+.blog__btn:hover{
+    background-color: #FF6033;
+    
+}
 /* Contact Section */
 .contact{
-    background-image: url(./img/Group\1@2x.png);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width:100vw;
+    background-image: url(./img/Group1@2x.png);
 }
 .title-title--contact{
     margin-top: 7rem;
@@ -202,14 +267,14 @@ a[href]{
     border-top:none;
     border-right:none;
     border-bottom: none;
+    font:bold 15px/25px "Raleway", sans-serif; 
+    color:#FFF
 }
 .form-style:hover,
 .forn-style:focus,
 .form-style:target{
     opacity: 1;
-    border-left: 5px solid #355B82;
-    color:#fff;
-    font:bold 15px/25px "Raleway", sans-serif; 
+    border-left: 5px solid #355B82; 
 }
 .form-style--text-area{
     height:15.6rem;
@@ -274,10 +339,6 @@ a[href]{
 .footer{
     height: 5.6rem;
     background-color: #262626;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .page-description--footer{
