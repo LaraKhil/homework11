@@ -196,7 +196,7 @@ a[href]{
 }
 .services__heading{
     height:100%;
-    border-right: 1.6px solid #262626;
+    border-right: 2px solid #262626;
     flex-basis: 70%;
     display: flex;
     justify-content: center;
@@ -223,9 +223,8 @@ a[href]{
 .title-title--services{
     position:absolute;
     top:50%;
-    left:0;
+    left:-10%;
     min-width:35rem;
-    transform: translateX(-10%);
     color:#fff;
     
 }
@@ -274,7 +273,7 @@ a[href]{
 .btn--gallery{
     margin-bottom: 6rem;
     background-color:#5585A2;
-    color:white;
+    color:#fff;
 }
 /* End of Gallery Section */
 /* Subscribe Seciton */
