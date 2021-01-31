@@ -41,7 +41,7 @@ a[href]{
 .btn{
    display:block;
    width:12.5rem; 
-   box-shadow: 2px 2px 4px rgb(172, 171, 171), -1px 0 2px rgb(172, 171, 171) ;
+   box-shadow: 3px 3px 6px rgba(37, 37, 37, 0.623) ;
    text-transform: uppercase;
    border: transparent;
    font:300 20px/24px 'Raleway', sans-serif;
@@ -49,6 +49,7 @@ a[href]{
    cursor:pointer;
    margin-top: 2.5rem;
    transition:all .2s linear;
+   color:white;
   
 }
 .title-title{
@@ -72,7 +73,7 @@ a[href]{
 }
 
 .center{
-   width:85%; 
+   width:85vw; 
    display: flex;
    justify-content: space-between;
    align-items:center ;
@@ -81,7 +82,6 @@ a[href]{
 .section{
     width:100vw;
     display: flex;
-    height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -110,6 +110,7 @@ a[href]{
 .first-page{
     background-image: url(./img/imgmain@2x.png);
      background-position: top;
+    min-height: 100vh;
 }
 .first-page__title{
     width:20rem;
@@ -120,6 +121,7 @@ a[href]{
 .first-page__btn{
     background-color:#FF6033;
     color:#fff; 
+    box-shadow: 2px 2px 4px rgb(172, 171, 171), -1px 0 2px rgb(172, 171, 171) ;
 }
 .first-page__btn:hover{
     background-color:#F10F2E ;
@@ -140,6 +142,7 @@ a[href]{
     opacity: 1;
     max-height:66vh;
     position:relative;
+    height:66vh;
 }
 .about__wrapper{
    left:4%;
@@ -168,9 +171,156 @@ a[href]{
     margin-bottom: 0;
 }
 /* End of About Section */
+/* Services Section */
+.services{
+    height:49.4rem;
+    background-color: #70BFFF;
+}
+.services__container{
+    margin-left: 9rem;
+}
+.services__card{
+    width: 25rem;
+    height:6.25rem;
+    background-color: #FFFFFF;
+    font:600 20px/27px "Raleway", sans-serif;
+    margin:0 auto 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition:all .2s linear;
+    box-shadow: 3px 3px 6px rgba(37, 37, 37, 0.26) ;
+}
+.services__card:hover{
+    box-shadow: 3px 3px 6px rgba(37, 37, 37, 0.623) ;
+}
+.services__heading{
+    height:100%;
+    border-right: 2px solid #262626;
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+.services__icon{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    fill: #262626;
+    transition: fill .2s linear;
+    height: 100%;
+    align-items: center;
+}
+.services__card:hover .services__icon{
+    fill:#355B82;
+}
+.services__img{
+    position:relative;
+}
+
+.title-title--services{
+    position:absolute;
+    top:50%;
+    left:-10%;
+    min-width:35rem;
+    color:#fff;
+    
+}
+/* End of Services Section */
+/* Gallery Section */
+.gallery{
+    min-height: 100vh;
+    background-color: #FFE92F;
+}
+.gallery__title{
+    margin-top: 7rem;
+}
+.gallery__description{
+    max-width: 39.37rem;
+    text-align: center;
+    margin: 3.5rem 0 1rem ;
+}
+.gallery__wrapper{
+    flex-direction: column;
+    min-height:100%;
+    width: 86vw;
+}
+.gallery__cards{
+   display:flex;
+   justify-content: center;
+}
+.gallery__card{
+    width: 23.1rem;
+    height: 16.25rem;
+}
+.gallery__card--big{
+   flex-basis:48.1rem;
+   max-height:34.3rem;  
+}
+.card-wrapper{
+    display:flex;
+    flex-direction: column;
+    flex-basis: 23.1rem;
+    justify-content: center;
+    max-height: 34.3rem;
+}
+.gallery__card--medium{
+    flex-basis: 35.6rem;
+    height:25rem;
+}
+.btn--gallery{
+    margin-bottom: 6rem;
+    background-color:#5585A2;
+    color:#fff;
+}
+/* End of Gallery Section */
+/* Subscribe Seciton */
+.subscribe{
+    height:31.2rem;
+    background-image: url(./img/bg@2x.png) ;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe__wrapper{
+    width:82vw;
+}
+.title-title--subscribe{
+     font-size: 40px;
+     text-align: left;
+ }
+.subscribe-description{
+     width:35.6rem;
+     text-align:left;
+     margin: 0 0 2rem 0;
+ }
+.subscribe__form{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+ }
+.subscribe-input{
+     width:35.6rem;
+     height:3.43rem;
+     padding-left:1rem;
+     font:300 15px/25px "Raleway", sans-serif;
+     color:#262626;
+ }
+.btn--subscribe{
+     background-color: #96B92C;
+     margin: 0 0 0 1.9rem;
+ }
+.btn--subscribe:hover{
+    background-color:#aae008;
+}
+/* End of Subscribe Section*/
 /* Blog Section*/
 .blog{
   background-color: #9F60F5;
+  min-height:100vh;
 }
 
 .title-title--blog{
@@ -178,6 +328,7 @@ a[href]{
 }
 .blog__wrapper{
     flex-direction: column;
+   
 }
 .blog__description--text{
     width:30rem;
@@ -187,14 +338,14 @@ a[href]{
 }
 .blog__cards{
     justify-content: center;
+   
 }
 .blog__card{
     position: relative;
-    height: 300px;
+    height: 18.75rem;
     color:#FFF;
     margin:0 0.5rem;
-    box-shadow: 3px 3px 6px rgba(37, 37, 37, 0.623) ;
-    
+    width:23.7rem;
 }
 .card__date{
     position:absolute;
@@ -202,7 +353,6 @@ a[href]{
     left:15px;
     font:600 20px/25px "Raleway", sans-serif;
     text-transform: uppercase;
-    background-color: rgba(37, 37, 37, 0.623);
     border-radius: 10px;
     text-align: center;
     padding:0.2rem;
@@ -220,12 +370,8 @@ a[href]{
     bottom:15px;
     left:15px;
 }
-
-
 .blog__btn{
-    background-color: #F10F2E;
-      box-shadow: 2px 2px 4px rgb(80, 80, 80), -1px 0 2px rgb(80, 80, 80) 
-    
+    background-color: #F10F2E;  
 }
 .blog__btn:hover{
     background-color: #FF6033;
@@ -234,6 +380,7 @@ a[href]{
 /* Contact Section */
 .contact{
     background-image: url(./img/Group1@2x.png);
+    min-height:100vh ;
 }
 .title-title--contact{
     margin-top: 7rem;
@@ -302,8 +449,8 @@ a[href]{
     padding:0.2rem 0; 
 }
 .form-style--text-area{
-    max-width:550px;
-    max-height: 300px;
+    max-width:34.37rem;
+    max-height: 18.75rem;
     overflow: hidden;
 }
 .form-style::-webkit-input-placeholder{
