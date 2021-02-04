@@ -413,7 +413,7 @@ a[href]{
    
     .page-description{
         text-align: center; 
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 1rem;
     } 
     
@@ -433,6 +433,7 @@ a[href]{
        max-width: 1200px;
        text-align: center;
        background-color: rgba(255, 255, 255, 0.555);
+       padding:1rem 0;
    }
    
     /* About Section */
