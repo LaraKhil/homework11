@@ -144,6 +144,7 @@ a[href]{
 .services{
     background-color: #70BFFF;
 }
+
 .services__card{
     background-color: #FFFFFF;
     margin:0 auto 1rem auto;
@@ -179,8 +180,8 @@ a[href]{
     fill:#355B82;
 }
  .svg-style{
-        max-width:15px;
-        max-height:15px; 
+        width:30px;
+        height:30px; 
     }
 
 .title-title--services{
@@ -480,7 +481,7 @@ a[href]{
     }
     
     .title-title--services{
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
     }
     
     
