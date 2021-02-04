@@ -413,6 +413,9 @@ a[href]{
        margin-bottom: 0.5rem;
     }
    
+    .title-title--small{
+        font-size: 35px;
+    }
     .page-description{
         text-align: center; 
         font-size: 15px;
