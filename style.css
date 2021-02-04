@@ -397,7 +397,9 @@ a[href]{
     .btn{
        margin: 0 auto;
        font-size: 12px;
-       padding: 0.5rem 1rem;
+       padding: 1rem ;
+       width: 50%;
+       overflow: hidden;
     }
     
     .header{
@@ -407,7 +409,7 @@ a[href]{
     .title-title{
        text-transform: uppercase;
        text-align: left;
-       font-size: 18px;
+       font-size: 24px;
        margin-bottom: 0.5rem;
     }
    
@@ -457,16 +459,16 @@ a[href]{
     .services__container{
         width:100%;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column;
         justify-content: space-between;
     }
     
     .services__card{
-        font-size: 8px;
-        line-height: 10px;
-        flex-basis: 45%;
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
         padding:0.4rem;
-        height:2.5rem;
+        height:4rem;
     }
     
     .services__img{
@@ -538,14 +540,17 @@ a[href]{
         width: 80%;
         color:#262626;
         font-size: 14px;
+        height: 2.5rem;
     }
     
     .btn--subscribe{
         background-color: #96B92C;
         width: 20%;
         box-shadow: none;
-        font-size:10px;
-        padding:0.4rem 0.1rem;  
+        font-size:8px;
+        padding:0.4rem 0.1rem; 
+        height: 2.5rem; 
+        overflow: hidden;
        
     }
     
@@ -628,7 +633,7 @@ a[href]{
     
     .form-style{
         width: 100%;
-        height: 2rem;
+        height: 4rem;
         margin-bottom: 0.8rem;
         border-left: 2px solid transparent;
         font-size: 14px; 
