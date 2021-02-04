@@ -89,6 +89,7 @@ a[href]{
     align-items: center;
     justify-content: center;
 }
+
 /* Nav section */
 .header{
     position:fixed;
@@ -481,11 +482,7 @@ a[href]{
     .title-title--services{
         margin-bottom: 0.5rem;
     }
-    
-    .svg-style{
-        max-width:15px;
-        max-height:15px; 
-    }
+  class="svg-style" 
     
     /* Gallery Seciton */
     
