@@ -20,6 +20,7 @@ body{
     background-color:#ECEBEF;
     height: auto;
     padding:0.5rem 0;
+    position:fixed;
 }
 
 .nav{
@@ -28,6 +29,7 @@ body{
     width: 90%;
     margin: 0 auto;
     max-width: 1000px;
+   
 }
 
 .nav__logo{
@@ -145,6 +147,7 @@ a[href]{
     margin-bottom: 25%;
     border-color: #AD004E;
     transition: all .3s linear;
+    background-color: #AD004E ;
 }
 
 .nav__button-container:hover{
